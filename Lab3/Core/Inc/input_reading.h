@@ -1,0 +1,16 @@
+/*
+ * input_reading.h
+ *
+ *  Created on: Oct 20, 2026
+ *      Author: asus
+ */
+
+#ifndef INC_INPUT_READING_H_
+#define INC_INPUT_READING_H_
+#include "main.h"
+#define NO_OF_BUTTONS 3
+void button_reading(void);
+unsigned char is_button_pressed(unsigned char index);
+unsigned char is_button_pressed_single(unsigned char index);
+unsigned char is_button_pressed_1s(unsigned char index);
+#endif /* INC_INPUT_READING_H_ */
